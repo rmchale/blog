@@ -2,21 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JBake</title>
-    <link>http://rmchale.github.io/</link>
-    <atom:link href="http://rmchale.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://rmchale.github.io/blog/</link>
+    <atom:link href="http://rmchale.github.io/blog//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Mon, 29 Dec 2014 20:23:42 -0600</pubDate>
-    <lastBuildDate>Mon, 29 Dec 2014 20:23:42 -0600</lastBuildDate>
+    <pubDate>Mon, 29 Dec 2014 22:04:40 -0600</pubDate>
+    <lastBuildDate>Mon, 29 Dec 2014 22:04:40 -0600</lastBuildDate>
 
     
     <item>
       <title>First Post</title>
-      <link>http://rmchale.github.io//blog/2014/12/first-post.html</link>
+      <link>http://rmchale.github.io/blog//blog/2014/12/first-post.html</link>
       <pubDate>Mon, 29 Dec 2014 00:00:00 -0600</pubDate>
       <guid isPermaLink="false">blog/2014/12/first-post.html</guid>
       <description>
       This is my first blog post using jbake!
+
+	  </description>
+    </item>
+    
+    <item>
+      <title>Second Post</title>
+      <link>http://rmchale.github.io/blog//blog/2014/12/second-post.html</link>
+      <pubDate>Mon, 29 Dec 2014 00:00:00 -0600</pubDate>
+      <guid isPermaLink="false">blog/2014/12/second-post.html</guid>
+      <description>
+      This is my second blog post using jbake!
 
 	  </description>
     </item>
