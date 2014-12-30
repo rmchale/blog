@@ -1,0 +1,19 @@
+buildscript {
+  repositories {
+      jcenter()
+  }
+
+ dependencies {
+    classpath "org.ajoberstar:gradle-git:0.13.0-milestone.1"
+  }
+}
+
+apply plugin: "org.ajoberstar.github-pages"           
+
+githubPages {
+  repoUri = 'git@github.com:rmchale/blog.git'      
+  pages {
+     from(file('src/jbake/output/')) 
+  }
+  targetBranch = 'gh-pages'
+}
