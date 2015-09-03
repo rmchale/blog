@@ -6,9 +6,39 @@
     <atom:link href="http://rmchale.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Tue, 30 Dec 2014 12:57:42 -0600</pubDate>
-    <lastBuildDate>Tue, 30 Dec 2014 12:57:42 -0600</lastBuildDate>
+    <pubDate>Thu, 3 Sep 2015 11:40:53 -0500</pubDate>
+    <lastBuildDate>Thu, 3 Sep 2015 11:40:53 -0500</lastBuildDate>
 
+    
+    <item>
+      <title>Leap Second</title>
+      <link>http://rmchale.github.io//blog/2015/leapsecond.html</link>
+      <pubDate>Thu, 3 Sep 2015 00:00:00 -0500</pubDate>
+      <guid isPermaLink="false">blog/2015/leapsecond.html</guid>
+      <description>
+      &lt;p&gt;A while ago (okay June) I was up making sure our systems were okay during the leap second. I was hoping atleast to get a good example out of it using this fine script.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;while true; do date &amp;amp;&amp;amp; sleep 1; done
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Sadly the mac has been fixed. Apparently over &lt;a href=&quot;http://www.jwz.org/blog/2005/12/happy-leap-second/&quot;&gt;10 years ago&lt;/a&gt;. Below I have output of the mac telling time correctly.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Tue Jun 30 18:59:52 CDT 2015
+Tue Jun 30 18:59:53 CDT 2015
+Tue Jun 30 18:59:54 CDT 2015
+Tue Jun 30 18:59:55 CDT 2015
+Tue Jun 30 18:59:56 CDT 2015
+Tue Jun 30 18:59:57 CDT 2015
+Tue Jun 30 18:59:58 CDT 2015
+Tue Jun 30 18:59:59 CDT 2015
+Tue Jun 30 19:00:00 CDT 2015
+Tue Jun 30 19:00:01 CDT 2015
+Tue Jun 30 19:00:02 CDT 2015
+Tue Jun 30 19:00:03 CDT 2015
+Tue Jun 30 19:00:04 CDT 2015
+Tue Jun 30 19:00:05 CDT 2015
+Tue Jun 30 19:00:06 CDT 2015
+Tue Jun 30 19:00:07 CDT 2015
+Tue Jun 30 19:00:08 CDT 2015
+&lt;/code&gt;&lt;/pre&gt;
+	  </description>
+    </item>
     
     <item>
       <title>First Post</title>
