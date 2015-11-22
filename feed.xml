@@ -6,9 +6,38 @@
     <atom:link href="http://rmchale.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Wed, 21 Oct 2015 23:17:13 -0500</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2015 23:17:13 -0500</lastBuildDate>
+    <pubDate>Sun, 22 Nov 2015 17:34:41 -0600</pubDate>
+    <lastBuildDate>Sun, 22 Nov 2015 17:34:41 -0600</lastBuildDate>
 
+    
+    <item>
+      <title>Microsoft Ergonomic Sculpt Mouse on the Mac</title>
+      <link>http://rmchale.github.io//blog/2015/sculpt-mouse.html</link>
+      <pubDate>Sun, 22 Nov 2015 00:00:00 -0600</pubDate>
+      <guid isPermaLink="false">blog/2015/sculpt-mouse.html</guid>
+      <description>
+      &lt;div style=&quot;text-align:center&quot;&gt;
+&lt;img src=&quot;images/sculpt-mouse.jpg&quot; width=&quot;500&quot;&gt;
+&lt;/div&gt;&lt;h3&gt;OVERVIEW&lt;/h3&gt;&lt;p&gt;I want to map the mouse keys on my Microsoft Ergonomic Sculpt mouse that came with my new &lt;a href=&quot;http://www.amazon.com/Microsoft-Sculpt-Ergonomic-Desktop-L5V-00001/dp/B00CYX54C0/&quot;&gt;Microsoft Sculpt Erconomic Keyboard&lt;/a&gt;. Its a bit of an odd duck of a mouse. It is oddly shaped and a bit uncormforable to use. It is however less uncomfortable than my &lt;a href=&quot;http://www.amazon.com/Apple-MB829Z-A-Magic-Mouse/dp/B002NX0M8C&quot;&gt;Apple Magic Mouse&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;The main problem I have is that the Windows key does not work with on my Mac. I have found &lt;a href=&quot;https://blog.yorkxin.org/posts/2014/04/12/microsoft-sculpt-mobile-mouse-and-mac/&quot;&gt;this&lt;/a&gt; blog post discussing how to fix it. Per the instructions I installed &lt;a href=&quot;https://pqrs.org/osx/karabiner/index.html.en&quot;&gt;Karabiner&lt;/a&gt; and after a little tinkering was able to map the Windows key to mouse button #5.&lt;/p&gt;&lt;p&gt;From there I used &lt;a href=&quot;http://www.boastr.net/&quot;&gt;bettertouchtool&lt;/a&gt; to map both the thumb buttons to Expose and Mission Control switcher. Below is the private.xml I used in Karabiner. &lt;/p&gt;&lt;p&gt;The mouse is still a tad uncomfortable, but so far so good in terms of mapping the mouse buttons.&lt;/p&gt;&lt;h3&gt;PRIVATE.xml&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;xml&quot;&gt;&amp;lt;root&amp;gt;
+&amp;lt;deviceproductdef&amp;gt;
+&amp;lt;productname&amp;gt;SCULPT_ERGONOMIC&amp;lt;/productname&amp;gt;
+&amp;lt;productid&amp;gt;0x07a5&amp;lt;/productid&amp;gt;
+&amp;lt;/deviceproductdef&amp;gt;
+&amp;lt;item&amp;gt;
+&amp;lt;name&amp;gt;Windows Button to Mission Control (Microsoft Sculpt Ergonomic Mouse)&amp;lt;/name&amp;gt;
+&amp;lt;identifier&amp;gt;com.microsoft.mouse.sculpt_mobile.win_button&amp;lt;/identifier&amp;gt;
+&amp;lt;device_only&amp;gt;DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_ERGONOMIC&amp;lt;/device_only&amp;gt;
+    &amp;lt;autogen&amp;gt;
+      __KeyToKey__
+      KeyCode::OPTION_R,
+      KeyCode::VK_MOUSEKEY_BUTTON_BUTTON5
+    &amp;lt;/autogen&amp;gt;
+  &amp;lt;/item&amp;gt;
+&amp;lt;/root&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Links&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://pqrs.org/osx/karabiner/index.html.en&quot;&gt;Karabiner&lt;/a&gt;&lt;br/&gt;&lt;a href=&quot;https://blog.yorkxin.org/posts/2014/04/12/microsoft-sculpt-mobile-mouse-and-mac/&quot;&gt;Instructions&lt;/a&gt;&lt;br/&gt;&lt;a href=&quot;https://www.reddit.com/r/osx/comments/2vozkq/anyone_use_the_ms_sculpt_comfort_mouse_on_latest/&quot;&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+	  </description>
+    </item>
     
     <item>
       <title>There's Always Next Year / Casey at the Bat</title>

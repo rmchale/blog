@@ -75,6 +75,29 @@
 	</div>
 	-->
 	
+		<a href="blog/2015/sculpt-mouse.html"><h1>Microsoft Ergonomic Sculpt Mouse on the Mac</h1></a>
+		<p>22 November 2015</p>
+		<p><div style="text-align:center">
+<img src="images/sculpt-mouse.jpg" width="500">
+</div><h3>OVERVIEW</h3><p>I want to map the mouse keys on my Microsoft Ergonomic Sculpt mouse that came with my new <a href="http://www.amazon.com/Microsoft-Sculpt-Ergonomic-Desktop-L5V-00001/dp/B00CYX54C0/">Microsoft Sculpt Erconomic Keyboard</a>. Its a bit of an odd duck of a mouse. It is oddly shaped and a bit uncormforable to use. It is however less uncomfortable than my <a href="http://www.amazon.com/Apple-MB829Z-A-Magic-Mouse/dp/B002NX0M8C">Apple Magic Mouse</a>. </p><p>The main problem I have is that the Windows key does not work with on my Mac. I have found <a href="https://blog.yorkxin.org/posts/2014/04/12/microsoft-sculpt-mobile-mouse-and-mac/">this</a> blog post discussing how to fix it. Per the instructions I installed <a href="https://pqrs.org/osx/karabiner/index.html.en">Karabiner</a> and after a little tinkering was able to map the Windows key to mouse button #5.</p><p>From there I used <a href="http://www.boastr.net/">bettertouchtool</a> to map both the thumb buttons to Expose and Mission Control switcher. Below is the private.xml I used in Karabiner. </p><p>The mouse is still a tad uncomfortable, but so far so good in terms of mapping the mouse buttons.</p><h3>PRIVATE.xml</h3>
+<pre><code class="xml">&lt;root&gt;
+&lt;deviceproductdef&gt;
+&lt;productname&gt;SCULPT_ERGONOMIC&lt;/productname&gt;
+&lt;productid&gt;0x07a5&lt;/productid&gt;
+&lt;/deviceproductdef&gt;
+&lt;item&gt;
+&lt;name&gt;Windows Button to Mission Control (Microsoft Sculpt Ergonomic Mouse)&lt;/name&gt;
+&lt;identifier&gt;com.microsoft.mouse.sculpt_mobile.win_button&lt;/identifier&gt;
+&lt;device_only&gt;DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_ERGONOMIC&lt;/device_only&gt;
+    &lt;autogen&gt;
+      __KeyToKey__
+      KeyCode::OPTION_R,
+      KeyCode::VK_MOUSEKEY_BUTTON_BUTTON5
+    &lt;/autogen&gt;
+  &lt;/item&gt;
+&lt;/root&gt;
+</code></pre><h3>Links</h3><p><a href="https://pqrs.org/osx/karabiner/index.html.en">Karabiner</a><br/><a href="https://blog.yorkxin.org/posts/2014/04/12/microsoft-sculpt-mobile-mouse-and-mac/">Instructions</a><br/><a href="https://www.reddit.com/r/osx/comments/2vozkq/anyone_use_the_ms_sculpt_comfort_mouse_on_latest/">Reddit</a></p></p>
+  	
 		<a href="blog/2015/casey-at-the-bat.html"><h1>There's Always Next Year / Casey at the Bat</h1></a>
 		<p>21 October 2015</p>
 		<p><p>It's been a while since I posted this. Usually its for my Red Sox. But I think its time I post it for my adopted city and the Cubbies.</p>
